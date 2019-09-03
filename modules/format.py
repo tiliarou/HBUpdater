@@ -14,9 +14,10 @@ separatorwidth = 4
 
 #Height of the frames holding the column titles
 columtitlesheight= 25 
+columnoffset = 5
 
-#secondary column relwidth
-column_relwidth = .20
+#secondary column width
+tablecolumnwidth = 130
 
 #Image for when there is an author image incompatible with tkinter
 notfoundimage = "notfound.png"
@@ -33,6 +34,9 @@ smallerboldtext = ("Trebuchet MS",8,"bold")
 smallboldtext = ("Trebuchet MS",10,"bold")
 mediumboldtext = ("Trebuchet MS",12,"bold")
 largeboldtext = ("Trebuchet MS",14,"bold")
+giantboldtext = ("Trebuchet MS",16,"bold")
+hugeboldtext = ("Trebuchet MS",20,"bold")
+mondoboldtext = ("Trebuchet MS",25,"bold")
 
 ##Main colors:
 #background color
@@ -41,12 +45,17 @@ light_color = "#1f1f1f"
 dark_color = "#121212"
 #White
 w = "#ffffff"
+#red
+r = "#ff0000"
 #Black
 b = "#000000"
 #ash
 ash = "#c4c4c4"
 #lgray (used for author / priject title / description
 lgray = "#acadaf"
+#darker gray
+dgray = "#888888"
+
 
 listboxselectionbackground =  "#c4c4c4",
 listboxselectionforeground = b
@@ -69,6 +78,7 @@ settings_font_color = w
 #Font when typing in search box
 search_font = mediumtext
 search_font_color = w
+searchoffset = 8
 
 #font for placeholder in search bar
 place_holder_font = mediumboldtext
@@ -146,7 +156,7 @@ consoletext = smalltext
 
 #width ov validity column in add repo page
 repocolumnwidth = 130
-entryheight = 29
+entryheight = 30
 
 repolistboxseparatorwidth = 2
 repo_placeholder_font = smalltext
@@ -157,3 +167,12 @@ repoguidefont = smallerboldtext
 
 
 details_guide_font = smallerboldtext
+
+
+settingsbuttonheight = 30
+
+
+
+
+
+
